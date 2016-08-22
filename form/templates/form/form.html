@@ -1,0 +1,7 @@
+[% extends "blog/header.html" %]
+
+{% block content %}
+	{% for Contactform in object_list %}
+		<h5>{{ Contactform.date|date:"Y-m-d" }}<a href="/form/{{Contactform.id}}"> {{Contactform.name}}</a></h5>
+	{% endfor %}
+{% endBlock %}

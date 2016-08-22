@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>tonileeAtcal</title>
+		<meta charset="utf-8" />
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+		<script src="{% static 'js/jquery.min.js' %}"></script>
+		<script src="{% static 'js/skel.min.js' %}"></script>
+		<script src="{% static 'js/main.js' %}"></script>
+	</head>
+	<body>
+		<!-- Intro -->
+		<section id="header" class="dark">
+				<header>
+					<h1>Toni Lee.</h1>
+					<p>Student. Developer. Engineer.</p>
+				</header>
+				<footer>
+						<a href="#first" class="button scrolly"><span class="fa fa-angle-down"></span></a>
+				</footer>
+		</section>
+		<!-- Experience -->
+		<section id="first" class="main">
+				<header>
+						<div class="container">
+							<img class="roundrect" src="{% static 'images/profile.jpg' %}">
+							<h2>I am an undergraduate at UC Berkeley.</h2>
+							<p>I have experience in Java, Python, C, Swift2, and HTML5.<br />
+							I am also well-acquainted with various APIs. </p>
+						</div>
+				</header>
+				<div class="content dark style1 featured">
+						<div class="container">
+							<div class="row">
+								<div class="4u">
+									<section>
+										<span class="feature-icon"><span style="font-size: 50pt" class="fa fa-laptop"></span></span>
+										<header>
+											<h3>Software Engineer Intern at Zuora, Inc.</h3>
+										</header>
+										<h4>Summer 2016</h4>
+										<p>As a Software Engineering Intern at Zuora, I designed, documented, implemented, and pitched a Salesforce Package built for rebuildability and reusability. The implemetation was done using APEX, REST API, SOAP API, and Visualforce.</p>
+									</section>
+								</div>
+								<div class="4u">
+									<section>
+										<span class="feature-icon"><span style="font-size: 50pt" class="fa fa-book"></span></span>
+										<header>
+											<h3>University of California, Berkeley, School of Letters and Science</h3>
+										</header>
+										<h4>Graduating Fall 2017 (expected)</h4>
+										<p>I am currently studying Cognitive Science and Computer Science.
+											My interests focus in Computer Science, and I have taken courses in Data Structures, Machine Structures, Discrete Probability, Practical Programming, Language Acquisition, and the Structure and Interpretation of Computer Programs. For my current courseload, I am taking Efficient Algorithms and Intractable Problems, Artificial Intelligence, and Computational Modeling.</p>
+									</section>
+								</div>
+								<div class="4u">
+									<section>
+										<span class="feature-icon"><span style="font-size: 50pt" class="fa fa-terminal"></span></span>
+										<header>
+											<h3>Various Projects using Python, Java, C, MIPS, MySQL, Scheme, Apache Spark, Hadoop</h3>
+										</header>
+										<h4>Fall 2014 - Spring 2016</h4>
+										<p>I have worked on various projects since the Fall of 2014 such as the implementation of version control
+											systems, relational database management systems, 2-stage pipelined processors, and prototypes of the NSA's HARBOR project on TORusers using mapreduce.</p>
+									</section>
+								</div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<footer>
+										<a href="{% static 'images/resume.pdf' %}" class="button scrolly">Resume</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+				</div>
+		</section>
+		<!-- Contact Me -->
+		<section id="fourth" class="main">
+				<header>
+					<div class="container">
+						<h2>Contact me.</h2>
+					</div>
+				</header>
+				<div class="content style4 featured">
+					<div class="container small">
+						<form method="post" action="#">
+							<div class="row half">
+								<div class="6u"><input type="text" class="text" placeholder="Name" /></div>
+								<div class="6u"><input type="text" class="text" placeholder="Email" /></div>
+							</div>
+							<div class="row half">
+								<div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
+							</div>
+							<div class="row">
+								<div class="12u">
+									<ul class="actions">
+										<li><input type="submit" class="button" value="Send Message" /></li>
+										<li><input type="reset" class="button alt" value="Clear Form" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section id="footer">
+				<ul class="icons">
+						<li><a href="https://github.com/toniree" class="fa fa-github solo"></a></li>
+						<li><a href="https://www.linkedin.com/in/toni-lee-67031996" class="fa fa-linkedin solo"></a></li>
+				</ul>
+			</section>	
+	</body>
+</html>
